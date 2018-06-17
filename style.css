@@ -1,0 +1,87 @@
+/*
+Theme Name: oki2a24.com, Twenty Fifteen Child
+Theme URI: http://oki2a24.com/
+Description: Twenty Fifteen テーマを基にした子テーマです。
+Author: oki2a24.com
+Author URI: http://oki2a24.com/
+Template: twentyfifteen                    
+Version: 1.0
+Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+*/
+
+/**
+ * 1.0 - Reset
+ */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	font-family: 'Noto Sans Japanese', serif;
+}
+
+/**
+ * 3.0 Typography
+ */
+
+body,
+button,
+input,
+select,
+textarea {
+	font-family: 'Noto Sans Japanese', serif;
+}
+
+/**
+ * 6.2 Menus
+ */
+
+.dropdown-toggle:after {
+        text-shadow: #ffffff 1px 1px 0px, #ffffff -1px 1px 0px, #ffffff 1px -1px 0px, #ffffff -1px -1px 0px;
+        -webkit-text-stroke-width: 1px;
+
+        filter:dropshadow(color=#ffffff,offX= 0,offY=-1)
+        dropshadow(color=#ffffff,offX= 1,offY= 0)
+        dropshadow(color=#ffffff,offX= 0,offY= 1)
+}
+
+.secondary-toggle:before {
+        text-shadow: #ffffff 1px 1px 0px, #ffffff -1px 1px 0px, #ffffff 1px -1px 0px, #ffffff -1px -1px 0px;
+        -webkit-text-stroke-width: 1px;
+
+        filter:dropshadow(color=#ffffff,offX= 0,offY=-1)
+        dropshadow(color=#ffffff,offX= 1,offY= 0)
+        dropshadow(color=#ffffff,offX= 0,offY= 1)
+}
+
+.post-navigation .post-title {
+	font-family: 'Noto Sans Japanese', serif;
+}
+
+ /**     
+  * 12.1 Posts and pages
+  */
+
+.page-title {
+        font-family: 'Noto Sans Japanese', serif;
+}
+
+/**
+ * 12.3 Comments
+ */
+
+.comments-title,
+.comment-reply-title {
+	font-family: 'Noto Sans Japanese', serif;
+}
+
+/**
+ * 15.4 Desktop Small 955px
+ */
+
+.sidebar {
+        text-shadow: #ffffff 1px 1px 0px, #ffffff -1px 1px 0px, #ffffff 1px -1px 0px, #ffffff -1px -1px 0px;
+        -webkit-text-stroke-width: 1px;
+
+        filter:dropshadow(color=#ffffff,offX= 0,offY=-1)
+        dropshadow(color=#ffffff,offX= 1,offY= 0)
+        dropshadow(color=#ffffff,offX= 0,offY= 1)
+}
+
